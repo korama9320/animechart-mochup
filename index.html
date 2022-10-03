@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4920fe29e9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="index(),signUp()">
+    <section class="cont">
+      <nav>
+        <svg
+          data-v-e2f25004=""
+          version="1.1"
+          viewBox="0 0 408.8 308.5"
+          class="svg-icon svg-fill"
+          aria-label="AniChart"
+          style="width: 45px"
+        >
+          <path
+            fill="#41B1EA"
+            stroke="none"
+            pid="0"
+            d="M224.8 291.7c21 10.7 44.7 16.8 69.8 16.8 39.2 0 76.8-15 105.5-41.6 8.8-8.4 7.6-18-1-25.5l-30.6-25.8c-8.7-7-16.3-6-25.4.8-13.8 11-30.8 16.7-48.4 16.7-43.6 0-79.3-35.3-79.3-79 0-43.6 35.6-79 79.3-79.2 18.2 0 36 6.2 50 17.8 8.7 7 16.3 8.3 25 1.2L401 69.4c9.4-7.5 10.6-16.7 2.3-25C374.3 16 335.3 0 294.6 0 236 0 185 32.8 158.8 81.2l66 210.5z"
+          ></path>
+          <path
+            fill="#FEFEFE"
+            stroke="none"
+            pid="1"
+            d="M107.3 3L0 308.3h83.3l18.2-52.8h90.8l17.7 52.8h83L186 3h-78.7zm13.2 184.8l26-84.6 28.5 84.6h-54.5z"
+          ></path>
+        </svg>
+        <ul class="nav">
+          <li>
+            <a href=""
+              ><div>winter</div>
+
+              <div class="smaller">2023</div></a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><div>Spring</div>
+
+              <div class="smaller">2022</div></a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><div>Summer</div>
+
+              <div class="smaller">2022</div></a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><div>Fall</div>
+
+              <div class="smaller">2022</div></a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href=""
+              ><i class="fa-regular fa-calendar"></i>
+              <div class="smaller">Airing</div></a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-solid fa-box-archive"></i>
+              <div class="smaller">Archive</div></a
+            >
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-solid fa-angles-right"></i>
+              <div class="smaller">TBA</div>
+            </a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-solid fa-gear"></i>
+              <div class="smaller">Setting</div></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="container">
+      <div class="top">
+        <h1>TV</h1>
+        <div></div>
+        <div class="icon">
+          <i class="fa-solid fa-share-nodes"></i
+          >
+          <a href="E:\iti\html,CSS\anime chart\fav.html"><i class="fa-solid fa-camera" ></i></a>
+          <i class="fa-solid fa-magnifying-glass" onclick="search()"></i>
+          <input type="text" name="search" id="search">
+          <div onclick="list()">
+            <i class="fa-solid fa-caret-up"></i
+            ><i class="fa-solid fa-caret-down"></i>
+            
+            <div class="list" style="display:none ;">
+             <div id="name" onclick="sort(this)">Title</div>
+             <div id="source" onclick="sort(this)">Source</div>
+             <div id="studio" onclick="sort(this)">Studio</div>
+             <div id="pop" onclick="sortNum(this)">Popularity</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="bottom">     
+        </div> 
+         <div class="top">
+        <h1 style="color: #5C728A;
+        ;">TV SHORTS</h1>
+        <div></div>
+       <div></div>
+      </div>
+      <div class="bottom">
+          
+          </div>
+          </div>  <div class="top">
+        <h1 style="color: #5C728A;
+        ;">LEFT OVERS</h1>
+        <div></div>
+       <div></div>
+      </div>
+      <div class="bottom">
+       
+          
+          
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
